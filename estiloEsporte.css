@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Cabeçalhos */
+h1 {
+    margin: 20px;
+    color: #444;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 20px;
+    color: #666;
+}
+
+/* Centralizar o texto do h2 da classe Centralizado */
+.Centralizado {
+    text-align: center;
+
+}
+
+/* Listas */
+ol {
+    margin: 20px;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #008cba;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Imagens */
+#imagem1 img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Formulário */
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #005f5f;
+}
