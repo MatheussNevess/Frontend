@@ -1,0 +1,78 @@
+/*Estilização para minha página Home*/
+.center{
+    text-align: center;
+}
+
+.cabecalho{
+    text-align: center;
+    background-color: #b4b4b4;
+    font-size: 40px;
+    ;
+}
+
+#menu li{
+    font-size: 16px;
+    display: inline;
+    padding: 20px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover{
+    color: darkgray;
+}
+
+.semSublinhado{
+    text-decoration: none;
+    color: black;
+}
+.semSublinhado li a:hover{
+    color:darkgray;
+}
+
+.conteiner{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conhecimento{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.conteinerAssunto ul{
+    background-color: lightgray;
+
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh-300 {
+    width: 300px;
+    height: 300px;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/*Estilzação para minha página Contato*/
